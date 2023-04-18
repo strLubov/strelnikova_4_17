@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "strelnikova-4-17"
+version = "0.1.0"
+description = "homework 17"
+authors = ["Strelnikova Liubov <lubov0strelnikova@gmail.com>"]
+readme = "README.md"
+packages = [{include = "strelnikova_4_17"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selene = "2.0.0rc2"
+pytest = "^7.3.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^2.17.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
